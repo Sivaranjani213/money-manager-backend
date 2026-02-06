@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Transaction = require("../models/Transaction");
+const Transaction = require("../models/transaction");
 
 
 // ================= ADD =================
@@ -172,3 +172,4 @@ router.delete("/:id", async (req, res) => {
 
 
 module.exports = router;
+
